@@ -6,9 +6,7 @@
   </script>
   
   <div class="contact-item">
-    <svg class="contact-item__icon" fill="currentColor" viewBox="0 0 20 20">
-      {@html icon}
-    </svg>
+    <i class="{icon}"></i>
     
     {#if isLink && href}
       <a {href} class="contact-item__link">{text}</a>

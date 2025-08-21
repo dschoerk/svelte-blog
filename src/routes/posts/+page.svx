@@ -1,9 +1,14 @@
 
 ---
 layout: 'post'
-title: "A title"
-date: "2025-01-01"
+title: "Blogging with a static website"
+date: "2025-08-21"
 ---
 
-# a new post
-with some text and a dot.
+In the past I've tried different approaches to hosting personal websites, and figured that a website with static content is more than enough. Although content management systems like e.g. [Wordpress](https://www.wordpress.com) are easy for the end user, they add considerable complexity in installation and maintenance. For example, a typical Wordpress installation consists of a webserver with PHP interpreter and a database server. Each of the services needs to be updated, backed up and kept alive. I typically use containerized and self-updating software stacks based on Docker, but for a simple website, this can quickly become a management nightmare or is easily neglected over time. Moreover, more software components contain more security vulnerabilities and may expose myself to unnecessary risks. 
+
+While other static blogging frameworks like [Hugo](https://gohugo.io/) or [Jekyll](https://jekyllrb.com/) exist, I'm taking the chance to learn a new piece of technology and create a simple software according to my needs. 
+
+
+
+

@@ -5,7 +5,8 @@
     
     const navLinks = [
       { label: 'About', href: 'about' },
-      { label: 'Research', href: 'research'}
+      { label: 'Research', href: 'research'},
+      { label: 'Posts', href: 'posts' }
     ];
   
     function toggleMobileMenu() {
